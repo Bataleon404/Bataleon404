@@ -1,0 +1,29 @@
+OverTheWire: Bandit Level 0
+Шаг 2. Подключись по SSH
+Введи в терминале команду:
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+Шаг 3. Подтверди подключение
+При первом подключении появится предупреждение:
+The authenticity of host '[bandit.labs.overthewire.org]:2220' can't be established.
+ED25519 key fingerprint is SHA256:...
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Введи yes и нажми Enter. Это нормально — сервер просто добавляется в список доверенных.
+Шаг 4. Введи пароль
+Появится запрос:
+bandit0@bandit.labs.overthewire.org's password:
+Введи пароль: bandit0
+Шаг 5. Ты внутри!
+После успешного входа увидишь приглашение:
+bandit0@bandit:~$
+Поздравляю, ты подключился к серверу!
+Полезные команды:
+ls              # показать файлы в текущей папке
+cat readme      # вывести содержимое файла readme
+pwd             # показать текущую директорию
+Алгоритм действий:
+Введи ls — увидишь файл readme
+Введи cat readme — получишь пароль вида NH2SXQwcBdpmTEzi3ifBHXa8...
+Скопируй этот пароль — он понадобится для Level 1
+Как выйти с сервера:
+exit
+или нажми Ctrl+D
