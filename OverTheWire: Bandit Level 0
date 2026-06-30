@@ -9,6 +9,7 @@ ED25519 key fingerprint is SHA256:...
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 Введи yes и нажми Enter. Это нормально — сервер просто добавляется в список доверенных.
 Шаг 4. Введи пароль
+
 Появится запрос:
 bandit0@bandit.labs.overthewire.org's password:
 Введи пароль: bandit0
